@@ -1,6 +1,6 @@
 import sys # sys library provide various functions and variables for manipulating different parts of the Python runtime environment.
            # sys library have all the information for all the exception
-from logger import logging
+from src.logger import logging
 def error_message_detail(error, error_detail:sys):
     _, _, exc_tb = error_detail.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
