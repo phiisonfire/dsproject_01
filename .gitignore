@@ -110,7 +110,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.artifact/
 
 # Spyder project settings
 .spyderproject
